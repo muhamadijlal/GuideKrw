@@ -1,8 +1,8 @@
-<header class="top-0 left-0 w-full flex items-center z-10">
+<header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
   <div class="container">
     <div class="flex justify-between items-center relative">
       <div class="px-4">
-        <a href="#home" class="font-bold block text-lg py-4">Guide<span class="text-primary">Krw</span></a>
+        <a href="#home" class="font-bold block text-lg py-4 text-dark">Guide<span class="text-primary">Krw</span></a>
       </div>
       <div class="flex items-center p-3">
         <button id="hamburger" name="hamburger" type="button" class="block right-4 lg:hidden">

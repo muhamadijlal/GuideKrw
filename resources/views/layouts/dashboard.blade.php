@@ -4,7 +4,7 @@
 
 @section('content')
 {{-- Hero section start --}}
-<section id="home" class="p-0">
+<section id="home" class="p-0 mt-16">
   <div class="p-0">
     <div class="w-full p-0">
       <div class="mb-10 overflow-hidden relative h-96 lg:h-screen">
@@ -57,7 +57,7 @@
             </div>
             <h1 class="text-2xl font-bold text-dark mb-2">Title</h1>
             <p class="mb-10 h-24 text-ellipsis overflow-hidden">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, quae quam officiis veniam blanditiis esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident laboriosam eos dolore molestiae, dolorem libero, rerum odio aut sequi excepturi, cum omnis harum repellendus labore.</p>
-            <p class="text-xs text-slate-300">2 March - Food  & Beverages</p>
+            <p class="text-xs text-secondary">2 March - Food  & Beverages</p>
           </div>
         </div>
       </div>
