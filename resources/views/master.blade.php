@@ -6,6 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>{{ ENV('APP_NAME') }}</title>
   <link rel="stylesheet" href="{{ asset('css/app.css')}}"/>
+  <script>
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
+
+  </script>
 </head>
 <body>
   {{-- Navbar Section Start --}}
