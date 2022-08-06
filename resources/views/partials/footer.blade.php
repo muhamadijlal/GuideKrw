@@ -7,10 +7,11 @@
         <div class="flex">
           <div class="w-1/2 mr-4">
             <h1 class="text-lg lg:text-2xl font-semibold text-white mb-3">Categories</h1>
-            <a href="" class="text-xs block lg:text-base py-1 text-secondary hover:text-primary">Food & Beverages</a>
-            <a href="" class="text-xs block lg:text-base py-1 text-secondary hover:text-primary">History & Goverment</a>
-            <a href="" class="text-xs block lg:text-base py-1 text-secondary hover:text-primary">About</a>
-            <a href="" class="text-xs block lg:text-base py-1 text-secondary hover:text-primary">Other</a>
+            <a href="#fnb" class="text-xs block lg:text-base py-1 text-secondary hover:text-primary">Food & Beverages</a>
+            <a href="#hng" class="text-xs block lg:text-base py-1 text-secondary hover:text-primary">History & Goverment</a>
+            <a href="#street" class="text-xs block lg:text-base py-1 text-secondary hover:text-primary">Street</a>
+            <a href="#" class="text-xs block lg:text-base py-1 text-secondary hover:text-primary">About</a>
+            <a href="#" class="text-xs block lg:text-base py-1 text-secondary hover:text-primary">Other</a>
           </div>
           <div class="w-1/2 mr-4">
             <h1 class="text-lg lg:text-2xl font-semibold text-white mb-3">Social media</h1>
