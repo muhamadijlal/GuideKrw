@@ -21,6 +21,10 @@ Route::get('/fnb', function() {
     return view('layouts/food&beverages');
 });
 
+Route::get('/street', function() {
+    return view('layouts/street');
+});
+
 Route::get('/detail-blog', function () {
     return view('layouts/detail-blog');
 });
