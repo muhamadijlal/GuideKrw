@@ -25,6 +25,10 @@ Route::get('/street', function() {
     return view('layouts/street');
 });
 
+Route::get('/hng', function() {
+    return view('layouts/history&government');
+});
+
 Route::get('/detail-blog', function () {
     return view('layouts/detail-blog');
 });
