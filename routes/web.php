@@ -17,6 +17,10 @@ Route::get('/dashboard', function () {
     return view('layouts/dashboard');
 });
 
+Route::get('/fnb', function() {
+    return view('layouts/food&beverages');
+});
+
 Route::get('/detail-blog', function () {
     return view('layouts/detail-blog');
 });
