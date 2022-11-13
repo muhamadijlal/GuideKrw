@@ -14,11 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/dashboard', function () {
-    return view('layouts.dashboard');
+    return view('layouts/dashboard');
 });
 
 Route::get('/fnb', function() {
-    return view('layouts.food&beverages');
+    return view('layouts/food&beverages');
 });
 
 Route::get('/street', function() {
@@ -26,17 +26,21 @@ Route::get('/street', function() {
 });
 
 Route::get('/hng', function() {
-    return view('layouts.history&government');
+    return view('layouts/history&government');
 });
 
 Route::get('/detail-blog', function () {
-    return view('layouts.detail-blog');
+    return view('layouts/detail-blog');
 });
 
 Route::get('/detail-place', function () {
-    return view('layouts.detail-place');
+    return view('layouts/detail-place');
 });
 
 Route::get('/search-result', function () {
-    return view('layouts.search-result');
+    return view('layouts/search-result');
+});
+
+Route::get('/others', function (){
+    return view('layouts.other');
 });
