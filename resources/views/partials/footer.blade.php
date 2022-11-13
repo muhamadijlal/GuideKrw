@@ -25,6 +25,7 @@
     <div class="container w-full lg:px-20 lg:w-2/3 bg-dark">
       <div class="w-full lg:py-20 py-10 px-4 lg:pb-10 pb-20">
         <h1 class="text-3xl lg:text-5xl font-bold text-white">Donate For Our Guide<span class="text-primary">Krw</span></h1>
+        <img class="mt-3" src="{{ asset('img/testqr.png') }}" alt="">
         <p class="text-xs lg:text-base text-secondary my-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ex hic dolorem, quam voluptas sit!</p>
         <div class="flex w-full items-center">
           <input type="email" name="email" placeholder="Input your email here" class="bg-white text-dark p-2 rounded-lg focus:outline-none focus:ring-1 focus:ring-primary focus:border-primary w-full">

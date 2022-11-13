@@ -24,6 +24,9 @@
             <li class="group">
               <a href="#street" class="text-base dark:text-white text-dark pt-2 pb-4 px-8 lg:py-1 flex group-hover:text-primary">Street</a>
             </li>
+            <li class="group">
+              <a href="#" class="text-base dark:text-white text-dark pt-2 pb-4 px-8 lg:py-1 flex group-hover:text-primary">Others</a>
+            </li>
             <li class="flex mt-3 lg:mt-0 items-center">
               <div class="flex lg:py-1 pt-2 pb-4 px-8">
                 <span class="text-sm mr-2 text-slate-500 dark:text-white font-medium">light</span>
